@@ -1,0 +1,129 @@
+* {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #f0f2f5;
+}
+
+/* logo picture on top */
+#logo {
+    width: 250px;
+    margin: auto;
+}
+img {
+    width: 250px;
+}
+
+/* Catchphrase below logo */
+#slogan {
+    width: 320px;
+    margin: auto;
+    text-align: center;
+}
+.catchphrase {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* log in form */
+ #loginform {
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    width: 380px;
+    margin: auto;
+    box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.1);
+ }
+
+ /* form contents */
+ .mailpass {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #dddfe0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 17px;
+ }
+
+ /* email pass focus */
+ input[type=text], input[type=password]:focus  {
+    border: 1px solid #dddfe0;
+    outline: none;
+ }
+input[type=text]:focus, input[type=password]:focus {
+    border: 1px solid #1877f2;
+    box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.1);
+}
+
+/* button hover */
+button:hover {
+    cursor: pointer;
+}
+
+/* Log in button */
+ .btn1 {
+    width: 99%;
+    margin: auto;
+    padding: 0 16px;
+    border: 1px solid #1877f2;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+ }
+
+ /* forgot password */
+.forgotpass {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px;
+    color: #1877f2;
+ }
+
+/* hr */
+.greyhr {
+    border: 1px solid #dddfe0;
+    margin-bottom: 20px;
+}
+
+ /* new account button */
+.grn-btn {
+    text-align: center;
+}
+
+/* create new account button */
+ .btn2 {
+    width: 60%;
+    padding: 0 16px;
+    border: 1px solid #42b72a;
+    border-radius: 6px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 10px;
+ }
+
+ /* create page */
+ p {
+    text-align: center;
+    color: #1c1e21;
+    font-size: 14px;
+ }
+
+ .cr-page {
+    color: #1c1e21;
+    font-weight: 700;
+ }
+
+/* create page hover */
+a:hover {
+    text-decoration: underline;
+}
